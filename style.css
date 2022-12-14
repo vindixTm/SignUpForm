@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('./fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('./fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: row;
+	background-color: #eef7f2 ;
+}
+input{
+	margin: 0 0 30px 5rem;
+	background-color: #FFFFFF;
+	border:1px solid #E5E7EB;
+	border-radius: 3px;
+	width: 250px;
+	padding: 7px;
+	font-size: 14px;
+/*	-webkit-appearance:none;*/
+}
+input:focus {
+	outline: none;
+    border:1px solid #91b3ab;
+	
+}
+label {
+	margin-left: 5rem;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+	color: ;
+}
+legend {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 26px;
+	margin-left: 5rem;
+	margin-bottom: 30px;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+
+	height: cal(100vh + 5px);
+	width: 50vw;
+	min-width: 400px;
+	background-image: url(" tony-litvyak-71DRM9Xw9bE-unsplash.jpg");
+}
+.header .header-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	height: 140px;
+	width: 100%;
+	margin-top: 245px;
+	padding: 20px;
+	
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgb(255, 255, 255);
+
+	font-size: 100px;
+	font-family: 'norsebold';
+}
+.top-logo {
+	
+	margin-top: 5px;
+	height: 86px;
+	width: 65px;
+
+}
+.footer-txt {
+	color: rgb(255, 255, 255);
+
+	position: ;
+	margin: 52vh -8px -8px -8px;
+	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	padding: 25px;
+
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.intro-txt {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 28px;
+	margin: 150px 80px 50px 5rem;
+	width: 75%;
+}
+.input-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+.input-section {
+	display: flex;
+	flex-direction: column;
+}
+#form-section {
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	box-shadow: 5px 9px 9px #e8e9e8;
+}
+.submit-button {
+	
+	width: 230px;
+	height: 50px;
+	border: 1px solid #366841;
+	border-radius: 8px;
+	background-color: #366841;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 800;
+	font-family: 'Varela Round', sans-serif;
+	box-shadow: 6px 6px 7px #d7d9d7;
+}
+.extra-txt{
+	display: block;
+	margin-top: 50px;
+}
+.button-login{
+	width: 300px;
+	margin: 35px 0 0 5rem;
+	display: flex;
+	flex-direction: column;
+}
+.logintxt {
+	margin-top: 30px;
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+}
+.login-link {
+	color: #366841;
+}
+.error:invalid {
+	border:1px solid red;
+}
+.error:valid {
+	border:1px solid #91b3ab;
+}

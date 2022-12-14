@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="" defer></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Sign Up</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header-logo"><img class="top-logo" src="odin-lined.png " alt="header-logo">ODIN</div>
+		<div class="footer-txt">Photo by Tony Litvyak </div>
+	</div>
+	<div>
+		<div class="intro-txt">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.Sign up now to ger started.<br/><span class="extra-txt">You know you want to.</span></div>
+		<form action="" method="get" id="form-section">
+			<legend>Let's do this!</legend>
+		<div class="input-container">
+			<div class="input-section">
+				<label for="first-name">FIRST NAME</label>
+				<input type="text" id="first-name" name="first-name" required>
+				<label for="email">EMAIL</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">PASSWORD</label>
+				<input type="text" id="password" name="password" class="error" required>
+			</div>
+			<div class="input-section">
+				<label for="last-name">LAST NAME</label>
+				<input type="text" id="last-name" name="last-name" required>
+				<label for="phone-num">PHONE NUMBER</label>
+				<input type="tel" id="phone-num" name="phone-num" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				<label for="confirm-password">CONFIRM PASSWORD</label>
+				<input type="text" id="confirm-password" name="confirm-password" class="error" required>
+			</div>
+		</div>
+		</form>
+		<div class="button-login"><button type="submit" form="form-section" class="submit-button">Create Account</button> <div class="logintxt">Already have an account? <a class="login-link">Log in</a></div></div>
+	</div>
+</body>
+</html>
